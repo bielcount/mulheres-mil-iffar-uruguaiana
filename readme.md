@@ -1,3 +1,11 @@
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.18.2-blue)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)](https://www.mongodb.com/)
+[![Mongoose](https://img.shields.io/badge/Mongoose-7.0.3-red)](https://mongoosejs.com/)
+[![Render](https://img.shields.io/badge/Deployed_on-Render-46E3B7?logo=render)](https://render.com/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
 # 👩‍🎓 Programa Mulheres Mil – IFFar Campus Uruguaiana
 
 O **Instituto Federal Farroupilha – Campus Uruguaiana** executará o **Programa Nacional Mulheres Mil** em 2025, por meio da oferta do curso **FIC (Formação Inicial e Continuada) de Vendedora**, com carga horária total de **160 horas**.
@@ -92,6 +100,7 @@ A iniciativa busca não apenas **formar profissionalmente**, mas também **empod
     MongoDB-->>Servidor: Dados solicitados
     Servidor-->>Cliente: Resposta JSON
 
+![image](https://github.com/user-attachments/assets/0d15f757-999e-4f41-81bb-eb0c03d4552d)
 
 # 📚 Endpoints da API Mulheres Mil
 
@@ -142,3 +151,92 @@ A iniciativa busca não apenas **formar profissionalmente**, mas também **empod
 | DELETE | `/:id`                 | Remove registro de frequência       | `deleteFrequencia`       |
 | GET    | `/aluno/:alunoId`      | Lista frequências por aluno         | `getFrequenciasByAluno`  |
 | GET    | `/disciplina/:disciplinaId` | Lista frequências por disciplina | `getFrequenciasByDisciplina` |
+
+---
+
+## 🗂️ Diagrama do Banco de Dados
+
+![relacionamentoDB](https://github.com/user-attachments/assets/bff91744-90be-44ed-b777-36ce34b8527b)
+https://dbdiagram.io/d/relacionamentoDB-6829a34f1227bdcb4ecf7080
+
+# 🤝 Contribuindo
+
+Contribuições são **muito bem-vindas**! 🚀
+
+Se você encontrou um **bug**, tem uma **sugestão de melhoria** ou deseja **adicionar uma nova funcionalidade**, siga estes passos:
+
+### 🐛 Reportar Problemas
+
+- Abra uma **Issue** descrevendo claramente o problema, como reproduzir e, se possível, inclua prints ou logs.
+- Use labels como `bug`, `enhancement`, `question` para categorizar melhor.
+ 
+ ```markdown
+**Descrição do Bug**  
+[Descrição clara e concisa]
+
+**Como Reproduzir**  
+1. Acesse '...'
+2. Clique em '....'
+3. Role até '....'
+4. Veja o erro
+
+**Comportamento Esperado**  
+[O que deveria acontecer]
+
+**Contexto Adicional**  
+- Dispositivo: [ex: iPhone 12]
+- Versão da API: [ex: 1.2.3]
+- Screenshots: [se possível]
+```
+
+## ⚙ Enviar Melhorias com Pull Requests
+
+####  Fork do Repositório
+- Vá até o repositório no GitHub.
+- Clique em **Fork** (canto superior direito).
+
+####  Clone o Repositório
+```bash
+git clone https://github.com/bielcount/mulheres-mil-iffar-uruguaiana
+cd nome-do-repositorio
+```
+
+####  Configure o Upstream
+```bash
+git remote add upstream https://github.com/bielcount/mulheres-mil-iffar-uruguaiana
+git fetch upstream
+```
+
+####  Crie uma Nova Branch e desenvolva
+```bash
+git checkout -b tipo/nome-da-mudanca
+# Ex: feat/novo-endpoint
+```
+
+####  Commit das Alterações
+```bash
+git add .
+git commit -m "tipo: mensagem do commit"
+# Ex: feat: adiciona expressões regulares
+```
+
+####  Atualize com o Repositório Original
+```bash
+git pull upstream main
+```
+
+####  Envie sua Branch
+```bash
+git push origin tipo/nome-da-mudanca
+```
+
+####  Crie o Pull Request no GitHub
+- Vá até seu repositório no GitHub.
+- Clique em **Compare & pull request**.
+- Preencha com:
+  - O que foi alterado.
+  - Por que foi alterado.
+  - Qual issue está relacionada (ex: `resolve #12`).
+
+
+✅ Pronto! Agora é só aguardar a análise e aprovação do seu Pull Request.
